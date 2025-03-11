@@ -1,7 +1,7 @@
-import re
-import streamlit as st # type: ignore
-import random
-import string
+import re # pylint: disable=
+import streamlit as st # type: ignore importing the streamlit library for creating web app
+import random  # importing the random library for generated random charaters
+import string # importing the string library for generated string characters
 
 # Password Strength Function
 def password_strength(password):
@@ -118,4 +118,4 @@ def main():
         
 if __name__ == "__main__":
     main()
-    st.markdown("### Author: **Sadia Imran**")
+    st.markdown("### Author: **❤️Sadia Imran**")
